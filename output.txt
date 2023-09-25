@@ -1,0 +1,13 @@
+Marrowgar;Band of the Bone Colossus;1
+Marrowgar;Frostbitten Fur Boots;1
+Deathwhisper;Blood-Soaked Saronite Stompers;3
+Saurfang;Deathbringer's Will;4
+Saurfang;Toskk's Maximized Wristguards;4
+Rotface;Aldriana's Gloves of Secrecy;4
+Putricide;Astrylian's Sutured Cinch;1
+Valithria;Coldwraith Links;3
+Valithria;Frostbrood Sapphire Ring;3
+Sindragosa;Sindragosa's Cruel Claw;4
+Lich King;Fal'inrush, Defender of Quel'thalas;3
+Lich King;Glorenzelg, High-Blade of the Silver Hand;3
+Lich King;Oathbinder, Charge of the Ranger-General;1

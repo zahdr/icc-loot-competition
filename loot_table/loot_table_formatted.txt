@@ -1,0 +1,180 @@
+Trash;50451;Belt of the Lonely Noble
+Trash;50447;Harbinger's Bone Band
+Trash;50450;Leggings of Dubious Charms
+Trash;50453;Ring of Rotting Sinew
+Trash;50444;Rowan's Rifle of Silver Bullets
+Trash;50449;Stiffened Corpse Shoulderpads
+Trash;50452;Wodin's Lucky Necklace
+Tokens;49908;Primordial Saronite
+Tokens;50274;Shadowfrost Shard
+Marrowgar;50604;Band of the Bone Colossus
+Marrowgar;50609;Bone Sentinel's Amulet
+Marrowgar;50611;Bracers of Dark Reckoning
+Marrowgar;50709;Bryntroll, the Bone Arbiter
+Marrowgar;50616;Bulwark of Smouldering Steel
+Marrowgar;50613;Crushing Coldwraith Belt
+Marrowgar;50607;Frostbitten Fur Boots
+Marrowgar;50608;Frozen Bonespike
+Marrowgar;50606;Gendarme's Cuirass
+Marrowgar;50615;Handguards of Winter's Respite
+Marrowgar;50612;Legguards of Lost Hope
+Marrowgar;50614;Loop of the Endless Labyrinth
+Marrowgar;50610;Marrowgar's Frigid Eye
+Marrowgar;50617;Rusted Bonespike Pauldrons
+Marrowgar;50605;Snowserpent Mail Helm
+Deathwhisper;50647;Ahn'kahar Onyx Neckguard
+Deathwhisper;50639;Blood-Soaked Saronite Stompers
+Deathwhisper;50640;Broken Ram Skull Helm
+Deathwhisper;50646;Cultist's Bloodsoaked Spaulders
+Deathwhisper;50649;Deathwhisper Raiment
+Deathwhisper;50650;Fallen Lord's Handguards
+Deathwhisper;50641;Heartpierce
+Deathwhisper;50642;Juggernaut Band
+Deathwhisper;50645;Leggings of Northern Lights
+Deathwhisper;50652;Necrophotic Greaves
+Deathwhisper;50648;Nibelung
+Deathwhisper;50644;Ring of Maddening Whispers
+Deathwhisper;50643;Shoulders of Mercy Killing
+Deathwhisper;50651;The Lady's Brittle Bracers
+Deathwhisper;50638;Zod's Repeating Longbow
+Gunship;50366;Althor's Abacus
+Gunship;50658;Amulet of the Silent Eulogy
+Gunship;50660;Boneguard Commander's Pauldrons
+Gunship;50665;Boots of Unnatural Growth
+Gunship;50661;Corp'rethar Ceremonial Crown
+Gunship;50349;Corpse Tongue Coin
+Gunship;50656;Ikfirus's Sack of Wonder
+Gunship;50656;Ikfirus's Sack of Wonder
+Gunship;50659;Polar Bear Claw Bracers
+Gunship;50664;Ring of Rapid Ascent
+Gunship;50655;Scourge Hunter's Vambraces
+Gunship;50654;Scourgeborne Waraxe
+Gunship;50653;Shadowvault Slayer's Cloak
+Gunship;50657;Skeleton Lord's Circle
+Gunship;50667;Waistband of Righteous Fury
+Saurfang;50671;Belt of the Blood Nova
+Saurfang;50672;Bloodvenom Blade
+Saurfang;52030;Conqueror's Mark of Sanctification
+Saurfang;52027;Conqueror's Mark of Sanctification
+Saurfang;50363;Deathbringer's Will
+Saurfang;50668;Greatcloak of the Turned Champion
+Saurfang;52026;Protector's Mark of Sanctification
+Saurfang;52029;Protector's Mark of Sanctification
+Saurfang;50670;Toskk's Maximized Wristguards
+Saurfang;52025;Vanquisher's Mark of Sanctification
+Saurfang;52028;Vanquisher's Mark of Sanctification
+Festergut;50691;Belt of Broken Bones
+Festergut;50692;Black Bruise
+Festergut;50689;Carapace of Forgotten Kings
+Festergut;50695;Distant Land
+Festergut;50701;Faceplate of the Forgotten
+Festergut;50226;Festergut's Acidic Blood
+Festergut;50690;Fleshrending Gauntlets
+Festergut;50697;Gangrenous Leggings
+Festergut;50700;Holiday's Grace
+Festergut;50698;Horrific Flesh Epaulets
+Festergut;50696;Leather of Stitched Scourge Parts
+Festergut;50702;Lingering Illness
+Festergut;50693;Might of Blight
+Festergut;50688;Nerub'ar Stalker's Cord
+Festergut;50699;Plague Scientist's Boots
+Festergut;50694;Plaguebringer's Stained Pants
+Festergut;50703;Unclean Surgical Gloves
+Rotface;50675;Aldriana's Gloves of Secrecy
+Rotface;50682;Bile-Encrusted Medallion
+Rotface;50681;Blightborne Warplate
+Rotface;50687;Bloodsunder's Bracers
+Rotface;50684;Corpse-Impaling Spike
+Rotface;50686;Death Surgeon's Sleeves
+Rotface;50348;Dislodged Foreign Object
+Rotface;50673;Dual-Bladed Pauldrons
+Rotface;50679;Helm of the Elder Moon
+Rotface;50674;Raging Behemoth's Shoulderplates
+Rotface;50676;Rib Spreader
+Rotface;50680;Rot-Resistant Breastplate
+Rotface;50231;Rotface's Acidic Blood
+Rotface;50678;Seal of Many Mouths
+Rotface;50685;Trauma
+Rotface;50677;Winding Sheet
+Putricide;50707;Astrylian's Sutured Cinch
+Putricide;52027;Conqueror's Mark of Sanctification
+Putricide;52030;Conqueror's Mark of Sanctification
+Putricide;50708;Last Word
+Putricide;50705;Professor's Bloodied Smock
+Putricide;52029;Protector's Mark of Sanctification
+Putricide;52026;Protector's Mark of Sanctification
+Putricide;50704;Rigormortis
+Putricide;50706;Tiny Abomination in a Jar
+Putricide;52025;Vanquisher's Mark of Sanctification
+Putricide;52028;Vanquisher's Mark of Sanctification
+Council;50721;Crypt Keeper's Bracers
+Council;50603;Cryptmaker
+Council;50713;Geistlord's Punishment Sack
+Council;50720;Incarnadine Band of Mending
+Council;50710;Keleseth's Seducer
+Council;50712;Landsoul's Horned Greathelm
+Council;50723;Mail of Crimson Coins
+Council;50718;Royal Crimson Cloak
+Council;50722;San'layn Ritualist Gloves
+Council;50717;Sanguine Silk Robes
+Council;50719;Shadow Silk Spindle
+Council;50715;Shoulders of Frost-Tipped Thorns
+Council;50716;Taldaram's Plated Fists
+Council;50711;Treads of the Wasteland
+Council;50714;Valanar's Other Signet Ring
+Lana'thel;50726;Bauble of True Blood
+Lana'thel;50724;Blood Queen's Crimson Choker
+Lana'thel;50727;Bloodfall
+Lana'thel;52030;Conqueror's Mark of Sanctification
+Lana'thel;52027;Conqueror's Mark of Sanctification
+Lana'thel;50725;Dying Light
+Lana'thel;50729;Icecrown Glacial Wall
+Lana'thel;50728;Lana'thel's Chain of Flagellation
+Lana'thel;52029;Protector's Mark of Sanctification
+Lana'thel;52026;Protector's Mark of Sanctification
+Lana'thel;52025;Vanquisher's Mark of Sanctification
+Lana'thel;52028;Vanquisher's Mark of Sanctification
+Valithria;50619;Anub'ar Stalker's Gloves
+Valithria;50632;Boots of the Funeral March
+Valithria;50630;Bracers of Eternal Dreaming
+Valithria;50620;Coldwraith Links
+Valithria;50622;Devium's Eternally Cold Ring
+Valithria;49426;Emblem of Frost
+Valithria;50628;Frostbinder's Shredded Cape
+Valithria;50618;Frostbrood Sapphire Ring
+Valithria;50625;Grinning Skull Greatboots
+Valithria;50623;Leggings of Dying Candles
+Valithria;50621;Lungbreaker
+Valithria;50631;Nightmare Ender
+Valithria;50627;Noose of Malachite
+Valithria;50629;Robe of the Waking Nightmare
+Valithria;50624;Scourge Reaver's Legplates
+Valithria;50626;Snowstorm Helm
+Sindragosa;52027;Conqueror's Mark of Sanctification
+Sindragosa;52030;Conqueror's Mark of Sanctification
+Sindragosa;50636;Memory of Malygos
+Sindragosa;50365;Phylactery of the Nameless Lich
+Sindragosa;52029;Protector's Mark of Sanctification
+Sindragosa;52026;Protector's Mark of Sanctification
+Sindragosa;50633;Sindragosa's Cruel Claw
+Sindragosa;50364;Sindragosa's Flawless Fang
+Sindragosa;50635;Sundial of Eternal Dusk
+Sindragosa;52028;Vanquisher's Mark of Sanctification
+Sindragosa;52025;Vanquisher's Mark of Sanctification
+Lich King;50731;Archus, Greatstaff of Antonidas
+Lich King;50732;Bloodsurge, Kel'Thuzad's Blade of Agony
+Lich King;52030;Conqueror's Mark of Sanctification
+Lich King;52027;Conqueror's Mark of Sanctification
+Lich King;49426;Emblem of Frost
+Lich King;50733;Fal'inrush, Defender of Quel'thalas
+Lich King;50730;Glorenzelg, High-Blade of the Silver Hand
+Lich King;50737;Havoc's Call, Blade of Lordaeron Kings
+Lich King;50736;Heaven's Fall, Kryss of a Thousand Lies
+Lich King;50818;Invincible's Reins
+Lich King;50738;Mithrios, Bronzebeard's Legacy
+Lich King;50735;Oathbinder, Charge of the Ranger-General
+Lich King;52026;Protector's Mark of Sanctification
+Lich King;52029;Protector's Mark of Sanctification
+Lich King;50734;Royal Scepter of Terenas II
+Lich King;52025;Vanquisher's Mark of Sanctification
+Lich King;52028;Vanquisher's Mark of Sanctification

@@ -1,0 +1,150 @@
+{
+    "settings": {
+      "iterations": 3000,
+      "phase": 3,
+      "showDamageMetrics": true,
+      "language": "en",
+      "faction": "Alliance",
+      "filters": {
+        "oneHandedWeapons": true,
+        "twoHandedWeapons": true
+      }
+    },
+    "raidBuffs": {
+      "giftOfTheWild": "TristateEffectImproved",
+      "strengthOfEarthTotem": "TristateEffectImproved",
+      "arcaneBrilliance": true,
+      "battleShout": "TristateEffectImproved",
+      "unleashedRage": true,
+      "leaderOfThePack": "TristateEffectRegular",
+      "icyTalons": true,
+      "swiftRetribution": true,
+      "sanctifiedRetribution": true,
+      "manaSpringTotem": "TristateEffectRegular",
+      "bloodlust": true
+    },
+    "debuffs": {
+      "judgementOfWisdom": true,
+      "faerieFire": "TristateEffectImproved",
+      "heartOfTheCrusader": true,
+      "bloodFrenzy": true,
+      "giftOfArthas": true,
+      "exposeArmor": true,
+      "sunderArmor": true,
+      "curseOfWeakness": "TristateEffectRegular",
+      "crystalYield": true
+    },
+    "partyBuffs": {
+    },
+    "player": {
+      "name": "Player",
+      "race": "RaceNightElf",
+      "class": "ClassDruid",
+      "equipment": {
+        "items": [
+          {"id":51296,"enchant":3817,"gems":[41398,42153]},
+          {"id":50633,"gems":[42153]},
+          {"id":51299,"enchant":3808,"gems":[40117]},
+          {"id":47545,"enchant":3605,"gems":[42153]},
+          {"id":51298,"enchant":3832,"gems":[40117,40125]},
+          {"id":50670,"enchant":3845,"gems":[40142,0]},
+          {"id":50675,"enchant":3604,"gems":[40162,40117,0]},
+          {"id":50707,"gems":[40117,40117,40117]},
+          {"id":51297,"enchant":3823,"gems":[40117,40125]},
+          {"id":50607,"enchant":3606,"gems":[40143,40143]},
+          {"id":50604,"gems":[40143]},
+          {"id":50402,"gems":[40162]},
+          {"id":50363},
+          {"id":50343},
+          {"id":50735,"enchant":3789,"gems":[40117,49110,40162]},
+          {},
+          {"id":50456}
+        ]
+      },
+      "consumes": {
+        "flask": "FlaskOfEndlessRage",
+        "food": "FoodSnapperExtreme",
+        "defaultPotion": "PotionOfSpeed",
+        "prepopPotion": "PotionOfSpeed",
+        "thermalSapper": true,
+        "fillerExplosive": "ExplosiveSaroniteBomb"
+      },
+      "bonusStats": {
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "pseudoStats": [0,0,0,0,0,0]
+      },
+      "buffs": {
+        "blessingOfKings": true,
+        "blessingOfMight": "TristateEffectImproved",
+        "shatteringThrows": 1
+      },
+      "feralDruid": {
+        "rotation": {
+          "bearWeaveType": "Lacerate",
+          "maintainFaerieFire": true,
+          "minCombosForRip": 5,
+          "useRake": true,
+          "useBite": true,
+          "biteTime": 4,
+          "minCombosForBite": 5,
+          "berserkBiteThresh": 30,
+          "ripLeeway": 4,
+          "minRoarOffset": 25,
+          "raidTargets": 30,
+          "maxFfDelay": 0.10000000149011612
+        },
+        "options": {
+          "latencyMs": 50,
+          "assumeBleedActive": true
+        }
+      },
+      "talentsString": "-553202132322010053110030310511-203503012",
+      "glyphs": {
+        "major1": 206580,
+        "major2": 45604,
+        "major3": 40901,
+        "minor1": 43674,
+        "minor2": 43335,
+        "minor3": 43331
+      },
+      "profession1": "Engineering",
+      "profession2": "Jewelcrafting",
+      "cooldowns": {
+      },
+      "rotation": {
+      },
+      "healingModel": {
+      },
+      "database": {
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [0,0,0,0,0,0,0,0,0,0,0,574,0,0,0,0,0,0,0,0,10643,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "epWeightsStats": {
+      "stats": [2.4,2.39,0,0,0,0,0,0,0,0,0,1,2.51,2.23,1.83,2.08,2.44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [16.5,0,0,0,0,0]
+    },
+    "epRatios": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
