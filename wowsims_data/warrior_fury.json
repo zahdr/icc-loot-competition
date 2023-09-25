@@ -1,254 +1,254 @@
 {
-    "settings": {
-      "iterations": 3000,
-      "phase": 3,
-      "showDamageMetrics": true,
-      "language": "en",
-      "faction": "Alliance",
-      "filters": {
-        "oneHandedWeapons": true,
-        "twoHandedWeapons": true
-      }
+  "settings": {
+    "iterations": 3000,
+    "phase": 3,
+    "showDamageMetrics": true,
+    "language": "en",
+    "faction": "Alliance",
+    "filters": {
+      "oneHandedWeapons": true,
+      "twoHandedWeapons": true
+    }
+  },
+  "raidBuffs": {
+    "giftOfTheWild": "TristateEffectImproved",
+    "strengthOfEarthTotem": "TristateEffectImproved",
+    "unleashedRage": true,
+    "leaderOfThePack": "TristateEffectImproved",
+    "windfuryTotem": "TristateEffectImproved",
+    "swiftRetribution": true,
+    "moonkinAura": "TristateEffectImproved",
+    "sanctifiedRetribution": true,
+    "bloodlust": true,
+    "devotionAura": "TristateEffectImproved",
+    "stoneskinTotem": "TristateEffectImproved"
+  },
+  "debuffs": {
+    "faerieFire": "TristateEffectImproved",
+    "heartOfTheCrusader": true,
+    "savageCombat": true,
+    "giftOfArthas": true,
+    "mangle": true,
+    "exposeArmor": true,
+    "sunderArmor": true,
+    "vindication": true,
+    "crystalYield": true
+  },
+  "partyBuffs": {
+  },
+  "player": {
+    "name": "Player",
+    "race": "RaceTroll",
+    "class": "ClassWarrior",
+    "equipment": {
+      "items": [
+        {"id":51227,"enchant":3817,"gems":[41398,40117]},
+        {"id":50633,"gems":[40117]},
+        {"id":51229,"enchant":3808,"gems":[40117]},
+        {"id":47546,"enchant":3831,"gems":[40117]},
+        {"id":51225,"enchant":3832,"gems":[40117,49110]},
+        {"id":50670,"enchant":3845,"gems":[40125,0]},
+        {"id":50675,"enchant":3604,"gems":[40143,40117,0]},
+        {"id":50620,"gems":[40125,40117,40117]},
+        {"id":51228,"enchant":3823,"gems":[40111,40111]},
+        {"id":50639,"enchant":3606,"gems":[42156,40143]},
+        {"id":50618,"gems":[40117]},
+        {"id":50402,"gems":[40143]},
+        {"id":50343},
+        {"id":50363},
+        {"id":49623,"enchant":3789,"gems":[40117,42153,42153]},
+        {"id":50730,"enchant":3789,"gems":[40117,40111,40111]},
+        {"id":50733,"gems":[40111]}
+      ]
     },
-    "raidBuffs": {
-      "giftOfTheWild": "TristateEffectImproved",
-      "strengthOfEarthTotem": "TristateEffectImproved",
-      "unleashedRage": true,
-      "leaderOfThePack": "TristateEffectImproved",
-      "windfuryTotem": "TristateEffectImproved",
-      "swiftRetribution": true,
-      "moonkinAura": "TristateEffectImproved",
-      "sanctifiedRetribution": true,
-      "bloodlust": true,
-      "devotionAura": "TristateEffectImproved",
-      "stoneskinTotem": "TristateEffectImproved"
+    "consumes": {
+      "flask": "FlaskOfEndlessRage",
+      "food": "FoodDragonfinFilet",
+      "defaultPotion": "PotionOfSpeed",
+      "prepopPotion": "PotionOfSpeed",
+      "thermalSapper": true,
+      "fillerExplosive": "ExplosiveSaroniteBomb"
     },
-    "debuffs": {
-      "faerieFire": "TristateEffectImproved",
-      "heartOfTheCrusader": true,
-      "savageCombat": true,
-      "giftOfArthas": true,
-      "mangle": true,
-      "exposeArmor": true,
-      "sunderArmor": true,
-      "vindication": true,
-      "crystalYield": true
+    "bonusStats": {
+      "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
     },
-    "partyBuffs": {
+    "buffs": {
+      "blessingOfKings": true,
+      "blessingOfMight": "TristateEffectImproved"
     },
-    "player": {
-      "name": "Player",
-      "race": "RaceTroll",
-      "class": "ClassWarrior",
-      "equipment": {
-        "items": [
-          {"id":51227,"enchant":3817,"gems":[41398,40117]},
-          {"id":50633,"gems":[40117]},
-          {"id":51229,"enchant":3808,"gems":[40117]},
-          {"id":47546,"enchant":3831,"gems":[40117]},
-          {"id":51225,"enchant":3832,"gems":[40117,49110]},
-          {"id":50670,"enchant":3845,"gems":[40125,0]},
-          {"id":50675,"enchant":3604,"gems":[40143,40117,0]},
-          {"id":50620,"gems":[40125,40117,40117]},
-          {"id":51228,"enchant":3823,"gems":[40111,40111]},
-          {"id":50639,"enchant":3606,"gems":[42156,40143]},
-          {"id":50618,"gems":[40117]},
-          {"id":50402,"gems":[40143]},
-          {"id":50343},
-          {"id":50363},
-          {"id":49623,"enchant":3789,"gems":[40117,42153,42153]},
-          {"id":50730,"enchant":3789,"gems":[40117,40111,40111]},
-          {"id":50733,"gems":[40111]}
-        ]
-      },
-      "consumes": {
-        "flask": "FlaskOfEndlessRage",
-        "food": "FoodDragonfinFilet",
-        "defaultPotion": "PotionOfSpeed",
-        "prepopPotion": "PotionOfSpeed",
-        "thermalSapper": true,
-        "fillerExplosive": "ExplosiveSaroniteBomb"
-      },
-      "bonusStats": {
-        "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        "pseudoStats": [0,0,0,0,0,0]
-      },
-      "buffs": {
-        "blessingOfKings": true,
-        "blessingOfMight": "TristateEffectImproved"
-      },
-      "warrior": {
-        "rotation": {
-          "useRend": true,
-          "useMs": true,
-          "mainGcd": "Bloodthirst",
-          "hsRageThreshold": 12,
-          "msRageThreshold": 45,
-          "rendRageThresholdBelow": 100,
-          "slamRageThreshold": 15,
-          "useHsDuringExecute": true,
-          "useBtDuringExecute": true,
-          "spamExecute": true,
-          "useWwDuringExecute": true,
-          "useSlamOverExecute": true,
-          "rendHealthThresholdAbove": 20,
-          "useOverpower": true,
-          "bloodsurgeDurationThreshold": 1,
-          "customRotation": {
-            "spells": [
-              {
-                "spell": 1
-              },
-              {
-                "spell": 3
-              },
-              {
-                "spell": 4
-              },
-              {
-                "spell": 7
-              },
-              {
-                "spell": 5
-              },
-              {
-                "spell": 6
-              }
-            ]
-          },
-          "customRotationOption": true
-        },
-        "options": {
-          "useRecklessness": true,
-          "useShatteringThrow": true
-        }
-      },
-      "talentsString": "302023102331-305052000520310053120500351",
-      "glyphs": {
-        "major1": 43432,
-        "major2": 43418,
-        "major3": 43423,
-        "minor1": 206953,
-        "minor2": 49084,
-        "minor3": 43397
-      },
-      "profession1": "Engineering",
-      "profession2": "Jewelcrafting",
-      "cooldowns": {
-        "cooldowns": [
-          {
-            "id": {
-              "spellId": 2825,
-              "tag": -1
-            },
-            "timings": [
-              0
-            ]
-          },
-          {
-            "id": {
-              "spellId": 12292
-            },
-            "timings": [
-              2,
-              122,
-              242
-            ]
-          },
-          {
-            "id": {
-              "spellId": 54758
-            },
-            "timings": [
-              2,
-              62,
-              122,
-              182,
-              242
-            ]
-          },
-          {
-            "id": {
-              "spellId": 1719
-            },
-            "timings": [
-              8
-            ]
-          },
-          {
-            "id": {
-              "itemId": 42641
-            },
-            "timings": [
-              0
-            ]
-          },
-          {
-            "id": {
-              "spellId": 26297
-            },
-            "timings": [
-              2
-            ]
-          },
-          {
-            "id": {
-              "spellId": 64382
-            },
-            "timings": [
-              0
-            ]
-          },
-          {
-            "id": {
-              "itemId": 41119
-            },
-            "timings": [
-              60,
-              120,
-              180,
-              240,
-              300
-            ]
-          }
-        ]
-      },
+    "warrior": {
       "rotation": {
+        "useRend": true,
+        "useMs": true,
+        "mainGcd": "Bloodthirst",
+        "hsRageThreshold": 12,
+        "msRageThreshold": 45,
+        "rendRageThresholdBelow": 100,
+        "slamRageThreshold": 15,
+        "useHsDuringExecute": true,
+        "useBtDuringExecute": true,
+        "spamExecute": true,
+        "useWwDuringExecute": true,
+        "useSlamOverExecute": true,
+        "rendHealthThresholdAbove": 20,
+        "useOverpower": true,
+        "bloodsurgeDurationThreshold": 1,
+        "customRotation": {
+          "spells": [
+            {
+              "spell": 1
+            },
+            {
+              "spell": 3
+            },
+            {
+              "spell": 4
+            },
+            {
+              "spell": 7
+            },
+            {
+              "spell": 5
+            },
+            {
+              "spell": 6
+            }
+          ]
+        },
+        "customRotationOption": true
       },
-      "healingModel": {
-      },
-      "database": {
+      "options": {
+        "useRecklessness": true,
+        "useShatteringThrow": true
       }
     },
-    "encounter": {
-      "duration": 180,
-      "durationVariation": 5,
-      "executeProportion20": 0.2,
-      "executeProportion25": 0.25,
-      "executeProportion35": 0.35,
-      "targets": [
+    "talentsString": "302023102331-305052000520310053120500351",
+    "glyphs": {
+      "major1": 43432,
+      "major2": 43418,
+      "major3": 43423,
+      "minor1": 206953,
+      "minor2": 49084,
+      "minor3": 43397
+    },
+    "profession1": "Engineering",
+    "profession2": "Jewelcrafting",
+    "cooldowns": {
+      "cooldowns": [
         {
-          "id": 16028,
-          "name": "Patchwerk",
-          "level": 83,
-          "mobType": "MobTypeUndead",
-          "stats": [0,0,0,0,0,0,0,0,0,0,0,574,0,0,0,0,0,0,0,0,10643,0,0,0,0,0,0,0,16950147,0,0,0,0,0,0,0,0,0,0,0],
-          "minBaseDamage": 38068,
-          "swingSpeed": 0.75,
-          "tightEnemyDamage": true
+          "id": {
+            "spellId": 2825,
+            "tag": -1
+          },
+          "timings": [
+            0
+          ]
+        },
+        {
+          "id": {
+            "spellId": 12292
+          },
+          "timings": [
+            2,
+            122,
+            242
+          ]
+        },
+        {
+          "id": {
+            "spellId": 54758
+          },
+          "timings": [
+            2,
+            62,
+            122,
+            182,
+            242
+          ]
+        },
+        {
+          "id": {
+            "spellId": 1719
+          },
+          "timings": [
+            8
+          ]
+        },
+        {
+          "id": {
+            "itemId": 42641
+          },
+          "timings": [
+            0
+          ]
+        },
+        {
+          "id": {
+            "spellId": 26297
+          },
+          "timings": [
+            2
+          ]
+        },
+        {
+          "id": {
+            "spellId": 64382
+          },
+          "timings": [
+            0
+          ]
+        },
+        {
+          "id": {
+            "itemId": 41119
+          },
+          "timings": [
+            60,
+            120,
+            180,
+            240,
+            300
+          ]
         }
       ]
     },
-    "epWeightsStats": {
-      "stats": [2.6282690774037616,1.898601540418825,0,0,0,0,0,0,0,0,0,1,2.25,2.253194003170439,2.1253650581968366,2.63,2.63,0,0,0,0.0260908295170328,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-      "pseudoStats": [6.8648714557016,2.9102503572243545,0,0,0,0]
+    "rotation": {
     },
-    "epRatios": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+    "healingModel": {
+    },
+    "database": {
+    }
+  },
+  "encounter": {
+    "duration": 180,
+    "durationVariation": 5,
+    "executeProportion20": 0.2,
+    "executeProportion25": 0.25,
+    "executeProportion35": 0.35,
+    "targets": [
+      {
+        "id": 16028,
+        "name": "Patchwerk",
+        "level": 83,
+        "mobType": "MobTypeUndead",
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,574,0,0,0,0,0,0,0,0,10643,0,0,0,0,0,0,0,16950147,0,0,0,0,0,0,0,0,0,0,0],
+        "minBaseDamage": 38068,
+        "swingSpeed": 0.75,
+        "tightEnemyDamage": true
+      }
     ]
-  }
+  },
+  "epWeightsStats": {
+    "stats": [2.6282690774037616,1.898601540418825,0,0,0,0,0,0,0,0,0,1,2.25,2.253194003170439,2.1253650581968366,2.63,2.63,0,0,0,0.0260908295170328,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "pseudoStats": [6.8648714557016,2.9102503572243545,0,0,0,0]
+  },
+  "epRatios": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

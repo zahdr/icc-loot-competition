@@ -1,13 +1,56 @@
 Marrowgar;Band of the Bone Colossus;1
-Marrowgar;Frostbitten Fur Boots;1
-Deathwhisper;Blood-Soaked Saronite Stompers;3
-Saurfang;Deathbringer's Will;4
-Saurfang;Toskk's Maximized Wristguards;4
-Rotface;Aldriana's Gloves of Secrecy;4
-Putricide;Astrylian's Sutured Cinch;1
-Valithria;Coldwraith Links;3
-Valithria;Frostbrood Sapphire Ring;3
-Sindragosa;Sindragosa's Cruel Claw;4
-Lich King;Fal'inrush, Defender of Quel'thalas;3
+Marrowgar;Bulwark of Smouldering Steel;2
+Marrowgar;Crushing Coldwraith Belt;10
+Marrowgar;Frostbitten Fur Boots;5
+Deathwhisper;Ahn'kahar Onyx Neckguard;3
+Deathwhisper;Blood-Soaked Saronite Stompers;6
+Deathwhisper;Leggings of Northern Lights;1
+Deathwhisper;Nibelung;2
+Deathwhisper;The Lady's Brittle Bracers;8
+Gunship;Amulet of the Silent Eulogy;3
+Gunship;Ikfirus's Sack of Wonder;2
+Gunship;Ikfirus's Sack of Wonder;2
+Gunship;Polar Bear Claw Bracers;4
+Gunship;Ring of Rapid Ascent;10
+Gunship;Scourge Hunter's Vambraces;1
+Gunship;Scourgeborne Waraxe;2
+Gunship;Shadowvault Slayer's Cloak;1
+Saurfang;Deathbringer's Will;10
+Saurfang;Greatcloak of the Turned Champion;1
+Saurfang;Toskk's Maximized Wristguards;6
+Festergut;Fleshrending Gauntlets;1
+Festergut;Gangrenous Leggings;2
+Festergut;Horrific Flesh Epaulets;2
+Festergut;Lingering Illness;1
+Festergut;Might of Blight;1
+Festergut;Nerub'ar Stalker's Cord;1
+Festergut;Plague Scientist's Boots;11
+Festergut;Plaguebringer's Stained Pants;3
+Rotface;Aldriana's Gloves of Secrecy;6
+Rotface;Bloodsunder's Bracers;2
+Rotface;Corpse-Impaling Spike;6
+Rotface;Death Surgeon's Sleeves;1
+Rotface;Dislodged Foreign Object;11
+Rotface;Winding Sheet;2
+Putricide;Astrylian's Sutured Cinch;4
+Putricide;Tiny Abomination in a Jar;1
+Council;Sanguine Silk Robes;1
+Council;Shadow Silk Spindle;6
+Lana'thel;Blood Queen's Crimson Choker;8
+Lana'thel;Lana'thel's Chain of Flagellation;1
+Valithria;Coldwraith Links;6
+Valithria;Frostbinder's Shredded Cape;10
+Valithria;Frostbrood Sapphire Ring;7
+Valithria;Nightmare Ender;1
+Valithria;Robe of the Waking Nightmare;3
+Valithria;Scourge Reaver's Legplates;2
+Sindragosa;Memory of Malygos;1
+Sindragosa;Phylactery of the Nameless Lich;11
+Sindragosa;Sindragosa's Cruel Claw;7
+Sindragosa;Sundial of Eternal Dusk;1
+Lich King;Bloodsurge, Kel'Thuzad's Blade of Agony;5
+Lich King;Fal'inrush, Defender of Quel'thalas;6
 Lich King;Glorenzelg, High-Blade of the Silver Hand;3
-Lich King;Oathbinder, Charge of the Ranger-General;1
+Lich King;Havoc's Call, Blade of Lordaeron Kings;8
+Lich King;Oathbinder, Charge of the Ranger-General;2
+Lich King;Royal Scepter of Terenas II;4

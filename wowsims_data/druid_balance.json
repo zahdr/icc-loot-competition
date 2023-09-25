@@ -1,0 +1,183 @@
+{
+    "settings": {
+      "iterations": 3000,
+      "phase": 3,
+      "showDamageMetrics": true,
+      "language": "en",
+      "faction": "Alliance",
+      "filters": {
+        "oneHandedWeapons": true,
+        "twoHandedWeapons": true
+      }
+    },
+    "raidBuffs": {
+      "giftOfTheWild": "TristateEffectImproved",
+      "powerWordFortitude": "TristateEffectImproved",
+      "strengthOfEarthTotem": "TristateEffectImproved",
+      "arcaneBrilliance": true,
+      "divineSpirit": true,
+      "trueshotAura": true,
+      "leaderOfThePack": "TristateEffectImproved",
+      "icyTalons": true,
+      "totemOfWrath": true,
+      "demonicPactSp": 620,
+      "moonkinAura": "TristateEffectImproved",
+      "wrathOfAirTotem": true,
+      "sanctifiedRetribution": true,
+      "bloodlust": true
+    },
+    "debuffs": {
+      "judgementOfWisdom": true,
+      "faerieFire": "TristateEffectImproved",
+      "ebonPlaguebringer": true,
+      "heartOfTheCrusader": true,
+      "totemOfWrath": true,
+      "shadowMastery": true,
+      "bloodFrenzy": true,
+      "sunderArmor": true
+    },
+    "partyBuffs": {
+    },
+    "player": {
+      "name": "Player",
+      "race": "RaceNightElf",
+      "class": "ClassDruid",
+      "equipment": {
+        "items": [
+          {"id":51290,"enchant":3820,"gems":[41285,40113]},
+          {"id":50724,"gems":[40113]},
+          {"id":51292,"enchant":3810,"gems":[40113]},
+          {"id":50628,"enchant":3722,"gems":[40155]},
+          {"id":51294,"enchant":3832,"gems":[40113,40155]},
+          {"id":50651,"enchant":2332,"gems":[40152,0]},
+          {"id":50663,"enchant":3604,"gems":[40133,40113,0]},
+          {"id":50613,"enchant":3601,"gems":[40113,45883,40113]},
+          {"id":51293,"enchant":3719,"gems":[40113,40155]},
+          {"id":50699,"enchant":3606,"gems":[40133,40113]},
+          {"id":50664,"gems":[40113]},
+          {"id":50398,"gems":[40155]},
+          {"id":50348},
+          {"id":50365},
+          {"id":50648,"enchant":3854,"gems":[40113,40113,40113]},
+          {},
+          {"id":50457}
+        ]
+      },
+      "consumes": {
+        "flask": "FlaskOfTheFrostWyrm",
+        "food": "FoodFishFeast",
+        "defaultPotion": "PotionOfSpeed",
+        "prepopPotion": "PotionOfSpeed",
+        "fillerExplosive": "ExplosiveSaroniteBomb"
+      },
+      "bonusStats": {
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "pseudoStats": [0,0,0,0,0,0]
+      },
+      "buffs": {
+        "blessingOfKings": true,
+        "blessingOfWisdom": "TristateEffectImproved",
+        "blessingOfMight": "TristateEffectImproved",
+        "vampiricTouch": true
+      },
+      "balanceDruid": {
+        "rotation": {
+          "type": "Manual",
+          "mfUsage": "MaximizeMf",
+          "wrathUsage": "RegularWrath",
+          "useStarfire": true,
+          "useSmartCooldowns": true,
+          "maintainFaerieFire": true,
+          "playerLatency": 200
+        },
+        "options": {
+          "innervateTarget": {
+          }
+        }
+      },
+      "talentsString": "5302023115331303213315301031--205003012",
+      "glyphs": {
+        "major1": 44928,
+        "major2": 40919,
+        "major3": 40921,
+        "minor1": 43674,
+        "minor2": 43331,
+        "minor3": 43335
+      },
+      "profession1": "Tailoring",
+      "profession2": "Engineering",
+      "cooldowns": {
+        "cooldowns": [
+          {
+            "id": {
+              "spellId": 2825,
+              "tag": -1
+            },
+            "timings": [
+              5
+            ]
+          }
+        ]
+      },
+      "rotation": {
+        "type": "TypeAPL",
+        "prepullActions": [
+          {"action":{"castSpell":{"spellId":{"spellId":48470}}},"doAtValue":{"const":{"val":"-2.6s"}}},
+          {"action":{"castSpell":{"spellId":{"itemId":40211}}},"doAtValue":{"const":{"val":"-1.5s"}}},
+          {"action":{"castSpell":{"spellId":{"spellId":48461}}},"doAtValue":{"const":{"val":"-1.5s"}}}
+        ],
+        "priorityList": [
+          {"action":{"condition":{"cmp":{"op":"OpGt","lhs":{"currentTime":{}},"rhs":{"const":{"val":"5s"}}}},"castSpell":{"spellId":{"spellId":2825,"tag":-1}}}},
+          {"action":{"condition":{"cmp":{"op":"OpLt","lhs":{"remainingTime":{}},"rhs":{"const":{"val":"1s"}}}},"castSpell":{"spellId":{"spellId":48463}}}},
+          {"action":{"castSpell":{"spellId":{"itemId":41119}}}},
+          {"action":{"condition":{"or":{"vals":[{"cmp":{"op":"OpLt","lhs":{"auraRemainingTime":{"auraId":{"itemId":50348}}},"rhs":{"const":{"val":"2"}}}},{"auraIsActive":{"auraId":{"spellId":71636}}}]}},"castSpell":{"spellId":{"spellId":65861}}}},
+          {"action":{"condition":{"and":{"vals":[{"cmp":{"op":"OpGt","lhs":{"currentTime":{}},"rhs":{"const":{"val":"0"}}}}]}},"castSpell":{"spellId":{"spellId":53201}}}},
+          {"action":{"condition":{"and":{"vals":[{"not":{"val":{"dotIsActive":{"spellId":{"spellId":48468}}}}},{"cmp":{"op":"OpGt","lhs":{"auraRemainingTime":{"auraId":{"spellId":48518}}},"rhs":{"const":{"val":"11"}}}},{"auraIsActiveWithReactionTime":{"auraId":{"spellId":48518}}}]}},"castSpell":{"spellId":{"spellId":48468}}}},
+          {"action":{"condition":{"and":{"vals":[{"not":{"val":{"dotIsActive":{"spellId":{"spellId":48468}}}}},{"cmp":{"op":"OpGt","lhs":{"auraRemainingTime":{"auraId":{"spellId":48517}}},"rhs":{"const":{"val":"2"}}}},{"auraIsActiveWithReactionTime":{"auraId":{"spellId":48517}}}]}},"castSpell":{"spellId":{"spellId":48468}}}},
+          {"action":{"condition":{"or":{"vals":[{"and":{"vals":[{"cmp":{"op":"OpGt","lhs":{"auraRemainingTime":{"auraId":{"spellId":48518}}},"rhs":{"const":{"val":"5"}}}},{"auraIsActiveWithReactionTime":{"auraId":{"spellId":48518}}}]}},{"cmp":{"op":"OpLt","lhs":{"remainingTime":{}},"rhs":{"const":{"val":"12"}}}}]}},"castSpell":{"spellId":{"spellId":54758}}}},
+          {"action":{"condition":{"and":{"vals":[{"auraIsActiveWithReactionTime":{"auraId":{"spellId":48518}}},{"cmp":{"op":"OpGt","lhs":{"auraRemainingTime":{"auraId":{"spellId":48518}}},"rhs":{"const":{"val":"12"}}}}]}},"castSpell":{"spellId":{"itemId":40211}}}},
+          {"action":{"condition":{"and":{"vals":[{"auraIsActiveWithReactionTime":{"auraId":{"spellId":48518}}}]}},"castSpell":{"spellId":{"spellId":48465}}}},
+          {"action":{"condition":{"and":{"vals":[{"auraIsActiveWithReactionTime":{"auraId":{"spellId":48517}}}]}},"castSpell":{"spellId":{"spellId":48461}}}},
+          {"action":{"condition":{"and":{"vals":[{"not":{"val":{"dotIsActive":{"spellId":{"spellId":48468}}}}}]}},"castSpell":{"spellId":{"spellId":48468}}}},
+          {"action":{"condition":{"and":{"vals":[{"not":{"val":{"auraIcdIsReadyWithReactionTime":{"auraId":{"spellId":48518}}}}},{"cmp":{"op":"OpLt","lhs":{"auraInternalCooldown":{"auraId":{"spellId":48518}}},"rhs":{"const":{"val":"4"}}}},{"auraIsActive":{"auraId":{"spellId":2825,"tag":-1}}}]}},"castSpell":{"spellId":{"spellId":48461}}}},
+          {"action":{"condition":{"not":{"val":{"auraIcdIsReadyWithReactionTime":{"auraId":{"spellId":48518}}}}},"castSpell":{"spellId":{"spellId":48465}}}},
+          {"action":{"castSpell":{"spellId":{"spellId":48461}}}}
+        ]
+      },
+      "reactionTimeMs": 50,
+      "distanceFromTarget": 18,
+      "healingModel": {
+      },
+      "database": {
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [0,0,0,0,0,0,0,0,0,0,0,574,0,0,0,0,0,0,0,0,10643,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "epWeightsStats": {
+      "stats": [0,0,0,0.33314095874630123,0.33659999999999696,1,0,0,0.5342086831842928,0.7750644391480319,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,0,0,0,0]
+    },
+    "epRatios": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }

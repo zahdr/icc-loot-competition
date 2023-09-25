@@ -1,0 +1,158 @@
+{
+    "settings": {
+      "iterations": 3000,
+      "phase": 3,
+      "showDamageMetrics": true,
+      "language": "en",
+      "faction": "Alliance",
+      "filters": {
+        "oneHandedWeapons": true,
+        "twoHandedWeapons": true
+      }
+    },
+    "raidBuffs": {
+      "giftOfTheWild": "TristateEffectImproved",
+      "powerWordFortitude": "TristateEffectImproved",
+      "strengthOfEarthTotem": "TristateEffectImproved",
+      "abominationsMight": true,
+      "leaderOfThePack": "TristateEffectRegular",
+      "icyTalons": true,
+      "swiftRetribution": true,
+      "moonkinAura": "TristateEffectRegular",
+      "wrathOfAirTotem": true,
+      "sanctifiedRetribution": true,
+      "bloodlust": true,
+      "devotionAura": "TristateEffectImproved",
+      "stoneskinTotem": "TristateEffectImproved"
+    },
+    "debuffs": {
+      "faerieFire": "TristateEffectImproved",
+      "ebonPlaguebringer": true,
+      "heartOfTheCrusader": true,
+      "shadowMastery": true,
+      "bloodFrenzy": true,
+      "giftOfArthas": true,
+      "mangle": true,
+      "exposeArmor": true,
+      "sunderArmor": true,
+      "crystalYield": true
+    },
+    "partyBuffs": {
+    },
+    "player": {
+      "name": "Player",
+      "race": "RaceOrc",
+      "class": "ClassDeathknight",
+      "equipment": {
+        "items": [
+          {"id":51312,"enchant":3817,"gems":[41398,40111]},
+          {"id":50647,"gems":[40111]},
+          {"id":51314,"enchant":3808,"gems":[40111]},
+          {"id":50677,"enchant":3831,"gems":[40146]},
+          {"id":51310,"enchant":3832,"gems":[42142,49110]},
+          {"id":50659,"enchant":3845,"gems":[40146,0]},
+          {"id":51311,"enchant":3604,"gems":[40146,0]},
+          {"id":50620,"gems":[40146,40111,42142]},
+          {"id":50624,"enchant":3823,"gems":[40111,42142,40111]},
+          {"id":50639,"enchant":3606,"gems":[40146,40111]},
+          {"id":52572,"gems":[40146]},
+          {"id":51855,"gems":[40111]},
+          {"id":47131},
+          {"id":50363},
+          {"id":50737,"enchant":3368,"gems":[40111]},
+          {"id":50737,"enchant":3368,"gems":[40111]},
+          {"id":47673}
+        ]
+      },
+      "consumes": {
+        "flask": "FlaskOfEndlessRage",
+        "food": "FoodDragonfinFilet",
+        "petFood": "PetFoodSpicedMammothTreats",
+        "defaultPotion": "PotionOfSpeed",
+        "prepopPotion": "PotionOfSpeed",
+        "thermalSapper": true,
+        "fillerExplosive": "ExplosiveSaroniteBomb"
+      },
+      "bonusStats": {
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "pseudoStats": [0,0,0,0,0,0]
+      },
+      "buffs": {
+        "blessingOfKings": true,
+        "blessingOfMight": "TristateEffectImproved",
+        "shatteringThrows": 1
+      },
+      "deathknight": {
+        "rotation": {
+          "armyOfTheDead": "AsMajorCd",
+          "useDeathAndDecay": true,
+          "btGhoulFrenzy": true,
+          "useEmpowerRuneWeapon": true,
+          "bloodRuneFiller": "BloodBoil",
+          "startingPresence": "Unholy",
+          "useGargoyle": true,
+          "gargoylePresence": "Unholy",
+          "drwDiseases": "Pestilence",
+          "useDancingRuneWeapon": true
+        },
+        "options": {
+          "petUptime": 1,
+          "precastGhoulFrenzy": true,
+          "precastHornOfWinter": true,
+          "unholyFrenzyTarget": {
+          },
+          "drwPestiApply": true
+        }
+      },
+      "talentsString": "-320033500002-2301303050032151000150013133151",
+      "glyphs": {
+        "major1": 43549,
+        "major2": 43546,
+        "major3": 43542,
+        "minor1": 43544,
+        "minor2": 43672,
+        "minor3": 43673
+      },
+      "profession1": "Engineering",
+      "profession2": "Jewelcrafting",
+      "cooldowns": {
+      },
+      "rotation": {
+      },
+      "healingModel": {
+      },
+      "database": {
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "id": 16028,
+          "name": "Patchwerk",
+          "level": 83,
+          "mobType": "MobTypeUndead",
+          "stats": [0,0,0,0,0,0,0,0,0,0,0,574,0,0,0,0,0,0,0,0,10643,0,0,0,0,0,0,0,16950147,0,0,0,0,0,0],
+          "minBaseDamage": 38068,
+          "swingSpeed": 0.75,
+          "tightEnemyDamage": true
+        }
+      ]
+    },
+    "epWeightsStats": {
+      "stats": [3.180513616421849,1.0681140153976958,0,0,0,0,0,0.9270829969970357,0.42772143351775455,0.2118624582787874,0,1,3.7963459357645677,1.3175364802218241,2.6789637229331813,1.63511039025633,1.6060835429340354,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [3.846878476607949,2.0251465525937147,0,0,0,0]
+    },
+    "epRatios": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }

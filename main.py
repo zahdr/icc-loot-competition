@@ -6,6 +6,7 @@ def build_needed_item_list(class_amount):
     needed_item_amount = {}
 
     for wowsims_file in os.listdir('wowsims_data'):
+        print(f"imported {wowsims_file}")
         with open(f'wowsims_data/{wowsims_file}') as f:
             f_jsonify = json.load(f)
             for i in range(class_amount[wowsims_file.split(".")[0]]):
@@ -59,27 +60,27 @@ def translate_id_to_name():
 if __name__ == "__main__":
     class_amount = {
         "dk_blood": 0,
-        "dk_frost": 0,
-        "dk_unholy_dw": 0,
-        "druid_balance": 0,
+        "dk_frost": 1,
+        "dk_unholy_dw": 2,
+        "druid_balance": 2,
         "druid_feral": 1,
-        "druid_restoration": 0,
-        "hunter_beastmaster": 0,
-        "hunter_marksmanship": 0,
+        "druid_restoration": 1,
+        "hunter_beastmastery": 0,
+        "hunter_marksmanship": 1,
         "hunter_survival": 0,
-        "mage_fire": 0,
-        "paladin_holy": 0,
-        "paladin_protection": 0,
-        "paladin_retribution": 0,
-        "priest_discipline": 0,
-        "priest_shadow": 0,
-        "rogue_assassinatoin": 0,
-        "rogue_combat": 0,
-        "shaman_elemental": 0,
-        "shaman_enhancer": 0,
-        "shaman_restoration": 0,
-        "warlock_affliction": 0,
-        "warlock_demonology": 0,
+        "mage_fire": 3,
+        "paladin_holy": 2,
+        "paladin_protection": 2,
+        "paladin_retribution": 1,
+        "priest_discipline": 1,
+        "priest_shadow": 2,
+        "rogue_assassination": 0,
+        "rogue_combat": 2,
+        "shaman_elemental": 2,
+        "shaman_enhancement": 0,
+        "shaman_restoration": 1,
+        "warlock_affliction": 1,
+        "warlock_demonology": 1,
         "warlock_destruction": 0,
         "warrior_arms": 0,
         "warrior_fury": 3,

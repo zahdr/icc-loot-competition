@@ -1,0 +1,154 @@
+{
+    "settings": {
+      "iterations": 3000,
+      "phase": 3,
+      "showDamageMetrics": true,
+      "language": "en",
+      "faction": "Alliance",
+      "filters": {
+        "oneHandedWeapons": true,
+        "twoHandedWeapons": true
+      }
+    },
+    "raidBuffs": {
+      "giftOfTheWild": "TristateEffectImproved",
+      "powerWordFortitude": "TristateEffectImproved",
+      "strengthOfEarthTotem": "TristateEffectImproved",
+      "abominationsMight": true,
+      "leaderOfThePack": "TristateEffectRegular",
+      "icyTalons": true,
+      "swiftRetribution": true,
+      "moonkinAura": "TristateEffectRegular",
+      "wrathOfAirTotem": true,
+      "sanctifiedRetribution": true,
+      "bloodlust": true,
+      "devotionAura": "TristateEffectImproved",
+      "stoneskinTotem": "TristateEffectImproved"
+    },
+    "debuffs": {
+      "faerieFire": "TristateEffectImproved",
+      "ebonPlaguebringer": true,
+      "heartOfTheCrusader": true,
+      "shadowMastery": true,
+      "bloodFrenzy": true,
+      "giftOfArthas": true,
+      "mangle": true,
+      "exposeArmor": true,
+      "sunderArmor": true,
+      "crystalYield": true
+    },
+    "partyBuffs": {
+    },
+    "player": {
+      "name": "Player",
+      "race": "RaceOrc",
+      "class": "ClassDeathknight",
+      "equipment": {
+        "items": [
+          {"id":51312,"enchant":3817,"gems":[41398,42153]},
+          {"id":50728,"gems":[40117]},
+          {"id":51314,"enchant":3808,"gems":[42153]},
+          {"id":47548,"enchant":3831,"gems":[40117]},
+          {"id":51310,"enchant":3832,"gems":[42153,40117]},
+          {"id":50659,"enchant":3845,"gems":[40117,0]},
+          {"id":51311,"enchant":3604,"gems":[40117,0]},
+          {"id":50620,"enchant":3601,"gems":[40143,40117,40117]},
+          {"id":51817,"enchant":3823,"gems":[49110,40117,40143]},
+          {"id":50639,"enchant":3606,"gems":[40143,40117]},
+          {"id":52572,"gems":[40117]},
+          {"id":50693,"gems":[40117]},
+          {"id":50363},
+          {"id":47464},
+          {"id":50737,"enchant":3370,"gems":[40117]},
+          {"id":50737,"enchant":3368,"gems":[40117]},
+          {"id":40207}
+        ]
+      },
+      "consumes": {
+        "flask": "FlaskOfEndlessRage",
+        "food": "FoodHeartyRhino",
+        "defaultPotion": "PotionOfSpeed",
+        "prepopPotion": "PotionOfSpeed",
+        "thermalSapper": true,
+        "fillerExplosive": "ExplosiveSaroniteBomb"
+      },
+      "bonusStats": {
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "pseudoStats": [0,0,0,0,0,0]
+      },
+      "buffs": {
+        "blessingOfKings": true,
+        "blessingOfMight": "TristateEffectImproved",
+        "shatteringThrows": 1
+      },
+      "deathknight": {
+        "rotation": {
+          "frostRotationType": "SingleTarget",
+          "armyOfTheDead": "PreCast",
+          "useDeathAndDecay": true,
+          "useEmpowerRuneWeapon": true,
+          "bloodRuneFiller": "BloodBoil",
+          "startingPresence": "Unholy",
+          "useGargoyle": true,
+          "gargoylePresence": "Unholy",
+          "drwDiseases": "Pestilence",
+          "useDancingRuneWeapon": true
+        },
+        "options": {
+          "petUptime": 1,
+          "precastHornOfWinter": true,
+          "unholyFrenzyTarget": {
+          },
+          "drwPestiApply": true
+        }
+      },
+      "talentsString": "01-32002350342203012300033101351-230200305003",
+      "glyphs": {
+        "major1": 43547,
+        "major2": 43543,
+        "major3": 45805,
+        "minor1": 43544,
+        "minor2": 43672,
+        "minor3": 43673
+      },
+      "profession1": "Engineering",
+      "profession2": "Jewelcrafting",
+      "cooldowns": {
+      },
+      "rotation": {
+      },
+      "healingModel": {
+      },
+      "database": {
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeUndead",
+          "stats": [0,0,0,0,0,0,0,0,0,0,0,574,0,0,0,0,0,0,0,0,10643,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "epWeightsStats": {
+      "stats": [3.22,0.62,0,0,0,0,0,0.8,0.34,0,0,1,1.92,0.76,1.85,0.77,1.13,0,0,0,0.01,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [3.1,1.79,0,0,0,0]
+    },
+    "epRatios": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }

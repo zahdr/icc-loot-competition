@@ -1,0 +1,178 @@
+{
+    "settings": {
+      "iterations": 3000,
+      "phase": 3,
+      "showDamageMetrics": true,
+      "language": "en",
+      "faction": "Alliance",
+      "filters": {
+        "oneHandedWeapons": true,
+        "twoHandedWeapons": true
+      }
+    },
+    "raidBuffs": {
+      "giftOfTheWild": "TristateEffectImproved",
+      "strengthOfEarthTotem": "TristateEffectImproved",
+      "abominationsMight": true,
+      "leaderOfThePack": "TristateEffectImproved",
+      "icyTalons": true,
+      "swiftRetribution": true,
+      "elementalOath": true,
+      "sanctifiedRetribution": true,
+      "bloodlust": true
+    },
+    "debuffs": {
+      "faerieFire": "TristateEffectImproved",
+      "earthAndMoon": true,
+      "heartOfTheCrusader": true,
+      "shadowMastery": true,
+      "bloodFrenzy": true,
+      "giftOfArthas": true,
+      "mangle": true,
+      "exposeArmor": true,
+      "sunderArmor": true,
+      "crystalYield": true
+    },
+    "partyBuffs": {
+    },
+    "player": {
+      "name": "Player",
+      "race": "RaceTroll",
+      "class": "ClassRogue",
+      "equipment": {
+        "items": [
+          {"id":51252,"enchant":3817,"gems":[41398,40117]},
+          {"id":50633,"gems":[40117]},
+          {"id":51254,"enchant":3808,"gems":[40117]},
+          {"id":47545,"enchant":3605,"gems":[40117]},
+          {"id":50656,"enchant":3832,"gems":[40117,40117,40117]},
+          {"id":50670,"enchant":3845,"gems":[40117,0]},
+          {"id":50675,"enchant":3604,"gems":[49110,40117,0]},
+          {"id":50707,"gems":[40117,40117,40117]},
+          {"id":50697,"enchant":3823,"gems":[42153,42153,42153]},
+          {"id":50607,"enchant":3606,"gems":[40117,40117]},
+          {"id":50402,"gems":[40117]},
+          {"id":50618,"gems":[40117]},
+          {"id":50363},
+          {"id":50343},
+          {"id":50737,"enchant":3789,"gems":[40117]},
+          {"id":50654,"enchant":3789,"gems":[40117]},
+          {"id":50733,"gems":[40117]}
+        ]
+      },
+      "consumes": {
+        "flask": "FlaskOfEndlessRage",
+        "food": "FoodHeartyRhino",
+        "defaultPotion": "PotionOfSpeed",
+        "prepopPotion": "PotionOfSpeed",
+        "defaultConjured": "ConjuredRogueThistleTea",
+        "thermalSapper": true,
+        "fillerExplosive": "ExplosiveSaroniteBomb"
+      },
+      "bonusStats": {
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "pseudoStats": [0,0,0,0,0,0]
+      },
+      "buffs": {
+        "blessingOfKings": true,
+        "blessingOfMight": "TristateEffectImproved",
+        "shatteringThrows": 1
+      },
+      "rogue": {
+        "rotation": {
+          "minimumComboPointsExposeArmor": 2,
+          "tricksOfTheTradeFrequency": "Maintain",
+          "assassinationFinisherPriority": "AssassinationPriorityUnknown",
+          "subtletyFinisherPriority": "SubtletyPriorityUnknown",
+          "minimumComboPointsPrimaryFinisher": 4,
+          "minimumComboPointsSecondaryFinisher": 4,
+          "MultiTargetSliceFrequency": "FrequencyUnknown"
+        },
+        "options": {
+          "mhImbue": "InstantPoison",
+          "ohImbue": "DeadlyPoison",
+          "startingOverkillDuration": 20,
+          "honorOfThievesCritRate": -1
+        }
+      },
+      "talentsString": "00532000514-0252051000035015223100501251",
+      "glyphs": {
+        "major1": 45762,
+        "major2": 42972,
+        "major3": 42969
+      },
+      "profession1": "Engineering",
+      "profession2": "Jewelcrafting",
+      "cooldowns": {
+        "cooldowns": [
+          {
+            "id": {
+              "spellId": 13750
+            },
+            "timings": [
+              44
+            ]
+          },
+          {
+            "id": {
+              "itemId": 40211
+            },
+            "timings": [
+              120
+            ]
+          },
+          {
+            "id": {
+              "itemId": 7676
+            },
+            "timings": [
+              6
+            ]
+          },
+          {
+            "id": {
+              "spellId": 51690
+            },
+            "timings": [
+              10
+            ]
+          }
+        ]
+      },
+      "rotation": {
+      },
+      "healingModel": {
+      },
+      "database": {
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "level": 83,
+          "mobType": "MobTypeGiant",
+          "stats": [0,0,0,0,0,0,0,0,0,0,0,574,0,0,0,0,0,0,0,0,10643,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+          "minBaseDamage": 65000,
+          "swingSpeed": 1.5,
+          "parryHaste": true
+        }
+      ]
+    },
+    "epWeightsStats": {
+      "stats": [1.0999999999999988,2.020096717282313,0,0,0,0,0,0,0.270552321132593,0,0,1,2.1748940532792047,1.4904366427768474,2.2489536676696775,2.7968403715593406,2.1477550668157273,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [6.270302037258128,2.5816063174543262,0,0,0,0]
+    },
+    "epRatios": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }

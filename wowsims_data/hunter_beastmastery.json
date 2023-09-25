@@ -1,0 +1,187 @@
+{
+    "settings": {
+      "iterations": 3000,
+      "phase": 3,
+      "showDamageMetrics": true,
+      "language": "en",
+      "faction": "Alliance",
+      "filters": {
+        "oneHandedWeapons": true,
+        "twoHandedWeapons": true
+      }
+    },
+    "raidBuffs": {
+      "giftOfTheWild": "TristateEffectImproved",
+      "powerWordFortitude": "TristateEffectImproved",
+      "strengthOfEarthTotem": "TristateEffectImproved",
+      "arcaneBrilliance": true,
+      "battleShout": "TristateEffectImproved",
+      "unleashedRage": true,
+      "leaderOfThePack": "TristateEffectImproved",
+      "windfuryTotem": "TristateEffectImproved",
+      "totemOfWrath": true,
+      "moonkinAura": "TristateEffectImproved",
+      "sanctifiedRetribution": true,
+      "bloodlust": true
+    },
+    "debuffs": {
+      "judgementOfWisdom": true,
+      "faerieFire": "TristateEffectRegular",
+      "curseOfElements": true,
+      "heartOfTheCrusader": true,
+      "totemOfWrath": true,
+      "savageCombat": true,
+      "giftOfArthas": true,
+      "mangle": true,
+      "exposeArmor": true,
+      "sunderArmor": true,
+      "huntersMark": 3,
+      "crystalYield": true
+    },
+    "partyBuffs": {
+    },
+    "player": {
+      "name": "Player",
+      "race": "RaceOrc",
+      "class": "ClassHunter",
+      "equipment": {
+        "items": [
+          {"id":51286,"enchant":3817,"gems":[41398,40117]},
+          {"id":50633,"gems":[40117]},
+          {"id":51288,"enchant":3808,"gems":[40117]},
+          {"id":47546,"enchant":3605,"gems":[42153]},
+          {"id":51289,"enchant":3832,"gems":[40117,40117]},
+          {"id":50655,"enchant":3845,"gems":[40117,0]},
+          {"id":51285,"enchant":3604,"gems":[40117,0]},
+          {"id":50688,"enchant":3601,"gems":[40148,42153,42153]},
+          {"id":50645,"enchant":3823,"gems":[49110,40117,40150]},
+          {"id":50607,"enchant":3606,"gems":[40148,40148]},
+          {"id":50618,"gems":[40117]},
+          {"id":50402,"gems":[40148]},
+          {"id":50363},
+          {"id":50343},
+          {"id":50735,"enchant":3827,"gems":[40117,40117,40117]},
+          {},
+          {"id":50733,"enchant":3607,"gems":[40117]}
+        ]
+      },
+      "consumes": {
+        "flask": "FlaskOfEndlessRage",
+        "food": "FoodBlackenedDragonfin",
+        "petFood": "PetFoodSpicedMammothTreats",
+        "defaultPotion": "PotionOfSpeed",
+        "prepopPotion": "PotionOfSpeed",
+        "defaultConjured": "ConjuredDarkRune",
+        "fillerExplosive": "ExplosiveSaroniteBomb"
+      },
+      "bonusStats": {
+        "stats": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        "pseudoStats": [0,0,0,0,0,0]
+      },
+      "buffs": {
+        "blessingOfKings": true,
+        "blessingOfWisdom": "TristateEffectImproved",
+        "blessingOfMight": "TristateEffectImproved",
+        "shatteringThrows": 1,
+        "vampiricTouch": true
+      },
+      "hunter": {
+        "rotation": {
+        },
+        "options": {
+          "ammo": "IcebladeArrow",
+          "petType": "Wolf",
+          "petTalents": {
+            "cobraReflexes": 2,
+            "dive": true,
+            "boarsSpeed": true,
+            "spikedCollar": 3,
+            "cullingTheHerd": 3,
+            "wildHunt": 2,
+            "bloodthirsty": 1,
+            "spidersBite": 3,
+            "rabid": true,
+            "callOfTheWild": true,
+            "sharkAttack": 2
+          },
+          "petUptime": 1,
+          "sniperTrainingUptime": 0.9,
+          "useHuntersMark": true
+        }
+      },
+      "talentsString": "51200201515210233110531251-0323051-5",
+      "glyphs": {
+        "major1": 45732,
+        "major2": 45733,
+        "major3": 42914,
+        "minor1": 43351,
+        "minor2": 43355,
+        "minor3": 43350
+      },
+      "profession1": "Engineering",
+      "profession2": "Jewelcrafting",
+      "cooldowns": {
+      },
+      "rotation": {
+        "type": "TypeAPL",
+        "prepullActions": [
+          {"action":{"castSpell":{"spellId":{"spellId":61847}}},"doAtValue":{"const":{"val":"-25s"}}},
+          {"action":{"castSpell":{"spellId":{"spellId":49067}}},"doAtValue":{"const":{"val":"-20s"}}},
+          {"action":{"castSpell":{"spellId":{"spellId":53517}}},"doAtValue":{"const":{"val":"-3s"}}},
+          {"action":{"castSpell":{"spellId":{"itemId":40211}}},"doAtValue":{"const":{"val":"-1.1s"}}},
+          {"action":{"castSpell":{"spellId":{"spellId":49052}}},"doAtValue":{"const":{"val":"-1.1s"}}}
+        ],
+        "priorityList": [
+          {"action":{"condition":{"cmp":{"op":"OpGt","lhs":{"currentTime":{}},"rhs":{"const":{"val":"1.35s"}}}},"autocastOtherCooldowns":{}}},
+          {"action":{"condition":{"cmp":{"op":"OpGe","lhs":{"currentTime":{}},"rhs":{"const":{"val":"0s"}}}},"castSpell":{"spellId":{"itemId":41119}}}},
+          {"action":{"condition":{"and":{"vals":[{"cmp":{"op":"OpGt","lhs":{"currentManaPercent":{}},"rhs":{"const":{"val":"15%"}}}},{"not":{"val":{"auraIsActive":{"auraId":{"spellId":61847}}}}}]}},"castSpell":{"spellId":{"spellId":61847}}}},
+          {"action":{"condition":{"and":{"vals":[{"cmp":{"op":"OpLt","lhs":{"currentManaPercent":{}},"rhs":{"const":{"val":"10%"}}}},{"not":{"val":{"auraIsActive":{"auraId":{"spellId":34074}}}}}]}},"castSpell":{"spellId":{"spellId":34074}}}},
+          {"action":{"condition":{"cmp":{"op":"OpLt","lhs":{"currentManaPercent":{}},"rhs":{"const":{"val":"40%"}}}},"castSpell":{"spellId":{"itemId":20520}}}},
+          {"action":{"condition":{"spellCanCast":{"spellId":{"spellId":61006}}},"castSpell":{"spellId":{"spellId":61006}}}},
+          {"action":{"condition":{"not":{"val":{"dotIsActive":{"spellId":{"spellId":49067}}}}},"castSpell":{"spellId":{"spellId":49067}}}},
+          {"action":{"condition":{"not":{"val":{"dotIsActive":{"spellId":{"spellId":49001}}}}},"castSpell":{"spellId":{"spellId":49001}}}},
+          {"action":{"condition":{"spellCanCast":{"spellId":{"spellId":49048}}},"castSpell":{"spellId":{"spellId":49048}}}},
+          {"action":{"condition":{"and":{"vals":[{"cmp":{"op":"OpLt","lhs":{"spellTimeToReady":{"spellId":{"spellId":61006}}},"rhs":{"const":{"val":"300ms"}}}},{"isExecutePhase":{"threshold":"E20"}}]}},"waitUntil":{"condition":{"spellCanCast":{"spellId":{"spellId":61006}}}}}},
+          {"action":{"condition":{"and":{"vals":[{"cmp":{"op":"OpLe","lhs":{"spellTimeToReady":{"spellId":{"spellId":49067}}},"rhs":{"const":{"val":"300ms"}}}},{"cmp":{"op":"OpLe","lhs":{"dotRemainingTime":{"targetUnit":{"type":"Target"},"spellId":{"spellId":49067}}},"rhs":{"const":{"val":"300ms"}}}},{"cmp":{"op":"OpGe","lhs":{"spellTimeToReady":{"spellId":{"spellId":49067}}},"rhs":{"dotRemainingTime":{"spellId":{"spellId":49067}}}}}]}},"waitUntil":{"condition":{"spellCanCast":{"spellId":{"spellId":49067}}}}}},
+          {"action":{"condition":{"and":{"vals":[{"cmp":{"op":"OpLe","lhs":{"spellTimeToReady":{"spellId":{"spellId":49067}}},"rhs":{"const":{"val":"300ms"}}}},{"cmp":{"op":"OpLe","lhs":{"dotRemainingTime":{"targetUnit":{"type":"Target"},"spellId":{"spellId":49067}}},"rhs":{"const":{"val":"300ms"}}}},{"cmp":{"op":"OpLe","lhs":{"spellTimeToReady":{"spellId":{"spellId":49067}}},"rhs":{"dotRemainingTime":{"spellId":{"spellId":49067}}}}}]}},"waitUntil":{"condition":{"not":{"val":{"dotIsActive":{"spellId":{"spellId":49067}}}}}}}},
+          {"action":{"condition":{"cmp":{"op":"OpLt","lhs":{"spellTimeToReady":{"spellId":{"spellId":49048}}},"rhs":{"const":{"val":"150ms"}}}},"waitUntil":{"condition":{"spellIsReady":{"spellId":{"spellId":49048}}}}}},
+          {"action":{"castSpell":{"spellId":{"spellId":49052}}}}
+        ]
+      },
+      "healingModel": {
+      },
+      "database": {
+      }
+    },
+    "encounter": {
+      "duration": 180,
+      "durationVariation": 5,
+      "executeProportion20": 0.2,
+      "executeProportion25": 0.25,
+      "executeProportion35": 0.35,
+      "targets": [
+        {
+          "id": 16028,
+          "name": "Patchwerk",
+          "level": 83,
+          "mobType": "MobTypeUndead",
+          "stats": [0,0,0,0,0,0,0,0,0,0,0,805,0,0,0,0,0,0,0,0,10643,0,0,0,76,0,0,0,16950147,0,0,0,0,0,0,0,0,0,0,0],
+          "minBaseDamage": 34964,
+          "damageSpread": 0.1,
+          "swingSpeed": 0.75
+        }
+      ]
+    },
+    "epWeightsStats": {
+      "stats": [0,2.5132822316755723,0,1.1457299512096073,0,0,0,0,0,0,0,0,5.25,2.1548991252018386,1.99244820672774,3.5493304684143565,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      "pseudoStats": [0,0,11.583641471018385,0,0,0]
+    },
+    "epRatios": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
